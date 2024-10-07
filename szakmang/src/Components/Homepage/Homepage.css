@@ -1,0 +1,21 @@
+.text-container {
+    width: 500px;
+    text-align: justify;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.tictactoe-container {
+    position: absolute;
+    left: 6%;
+    bottom: 25%;
+}
+@media (min-width: 768px) {
+    .tictactoe-container {
+      position: absolute;
+      left: 70%;
+      bottom: 25%;
+      transform: translate(-50%, 0);
+    }
+  }

@@ -1,0 +1,33 @@
+.navbar {
+    background-color: lavender;
+    padding: 20px;
+    height: 70px; /* Magasság növelése */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Listaelemek jobbra igazítása */
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    margin-right: 25px;
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .navbar-item a:hover {
+    color: darkslateblue;
+  }
+  .navbar-logo {
+    height: 100px; /* Adjust the height as needed */
+    width: 100px;
+    margin-right: 65%;
+    border-radius: 5px;
+  }

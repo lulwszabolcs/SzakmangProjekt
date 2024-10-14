@@ -2,7 +2,7 @@ import React from "react";
 
 import './Navbar.css';
 import logo3 from './logo3.jpg';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 
 function Navbar() {
   return (

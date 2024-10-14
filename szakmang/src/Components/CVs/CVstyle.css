@@ -1,0 +1,20 @@
+.cv-container {
+    margin-bottom: 100px;
+}
+
+.name-title {
+    font-size: 50px;
+    color: rgb(40, 221, 224);
+}
+
+.cv-year {
+    font-weight: bold;
+}
+
+.cv-container {
+    margin-left: 3%;
+}
+
+h2 {
+    color: rgb(40, 221, 224);
+}

@@ -1,10 +1,8 @@
-import logo from './logo.svg';
 import React from "react";
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Homepage from './Components/Homepage/Homepage';
-import TicTacToe from './Components/TicTacToe/TicTacToe';
 import SzabiCV from './Components/CVs/SzabiCV';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import VinceCV from './Components/CVs/VinceCV';
@@ -15,7 +13,6 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Footer/>
       <BrowserRouter>
       <Routes>
         <Route path="/home" element={<Homepage />} />
@@ -25,6 +22,7 @@ function App() {
         <Route path="*" element={<Homepage />} />
       </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
 
   );

@@ -6,6 +6,8 @@ EDDIG SIMA CMD
 
 bemész a projekt mappába - > ott egy terminal -> git init
 git remote add origin https://github.com/your-username/your-repo.git
+
+FELTEVÉS GITHUBRA
 git add .   --> színdpadra adja hozzá 
 git commit -m "Your commit message"  --> a színpadról átkerül, idézőjelben a commit message
 git push -u origin master   -> ez felteszi githubra 

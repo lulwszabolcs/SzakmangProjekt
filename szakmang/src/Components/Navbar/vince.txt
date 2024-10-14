@@ -1,0 +1,13 @@
+letöltöd a gitet 
+git config --global user.email "Your_Email"
+git config --global user.name "Your_Name"   ---> github név és email
+
+EDDIG SIMA CMD
+
+bemész a projekt mappába - > ott egy terminal -> git init
+git remote add origin https://github.com/your-username/your-repo.git
+git add .   --> színdpadra adja hozzá 
+git commit -m "Your commit message"  --> a színpadról átkerül, idézőjelben a commit message
+git push -u origin master   -> ez felteszi githubra 
+
+

@@ -1,0 +1,4 @@
+<li className="navbar-item"><Link to="/home">Home</Link></li>
+          <li className="navbar-item"><Link to="/almi">Almi</Link></li>
+          <li className="navbar-item"><Link to="/vince">Vince</Link></li>
+          <li className="navbar-item"><Link to="/szabi">Szabi</Link></li>

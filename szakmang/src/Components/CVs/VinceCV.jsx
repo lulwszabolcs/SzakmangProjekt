@@ -5,7 +5,7 @@ function VinceCV() {
     return (
       <div className='cv-container'>
       <h1 className='name-title'>Harcsa Vince</h1>
-      <p>20c_nagys@nyirszikszi.hu | +3630863242 | 4400 Nyíregyháza Városmajor street 4.</p>
+      <p>20c_harcsav@nyirszikszi.hu | +3630863242 | 4400 Nyíregyháza Városmajor street 4.</p>
       <div className='cv-education'>
       <h2>Education</h2>
       <p className='cv-year'>2020-2025:</p>

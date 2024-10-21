@@ -1,10 +1,10 @@
 .navbar {
     background-color: lavender;
     padding: 20px;
-    height: 70px; /* Magasság növelése */
+    height: 70px; 
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Listaelemek jobbra igazítása */
+    justify-content: flex-end; 
   }
   
   .navbar-list {
@@ -26,8 +26,28 @@
     color: darkslateblue;
   }
   .navbar-logo {
-    height: 100px; /* Adjust the height as needed */
+    height: 100px; 
     width: 100px;
     margin-right: 65%;
     border-radius: 5px;
   }
+  /* @media (min-width: 2560px) {
+    .navbar-logo {
+      margin-right: 73%;
+    }
+    .navbar {
+      padding: 20px;
+      height: 100px; 
+    }
+    .navbar-item a {
+      font-size: 40px;
+    }
+  } */
+  /* @media (min-width: 1440px) {
+    .navbar-item a {
+      font-size: 30px;
+    }
+    .navbar-logo {
+      margin-right: 57%;
+    }
+  } */

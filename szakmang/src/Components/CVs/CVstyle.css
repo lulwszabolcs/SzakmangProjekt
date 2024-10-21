@@ -18,3 +18,16 @@
 h2 {
     color: rgb(40, 221, 224);
 }
+/* @media (min-width: 1440px   ) {
+    body {
+        font-size: 30px;
+    }
+    .cv-container {
+        margin-bottom: 12%;
+    }
+  } */
+/* @media (min-width: 2560px) {
+    body {
+        font-size: 40px;
+    }
+  } */

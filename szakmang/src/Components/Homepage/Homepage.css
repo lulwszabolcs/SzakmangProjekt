@@ -11,11 +11,30 @@
     left: 6%;
     bottom: 25%;
 }
-@media (min-width: 768px) {
+ @media (min-width: 1440px) {
     .tictactoe-container {
       position: absolute;
-      left: 70%;
+      left: 80%;
       bottom: 25%;
       transform: translate(-50%, 0);
     }
-  }
+     .text-container {
+      margin-top: 100px;
+      margin-left: 150px;
+      font-size: 20px;
+    } 
+  } 
+  /* @media (min-width: 2560px) {
+    .tictactoe-container {
+      position: absolute;
+      left: 80%;
+      bottom: 40%;
+      transform: translate(-50%, 0);
+    }
+    .text-container {
+      margin-top: 150px;
+      margin-left: 100px;
+      width: 50%;
+      font-size: 40px;
+    }
+  } */
